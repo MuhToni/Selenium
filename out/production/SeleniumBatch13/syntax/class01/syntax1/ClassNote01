@@ -1,0 +1,66 @@
+Selenium Class 01
+
+Whats is software testing?
+--identify the correctness and quality of the application
+
+How many ways we can actually test?
+--manual
+--automation
+
+When do we do for automation testing?
+--after manual testing testing is passed
+--when environment is stable
+--analyze out test suite and choose automation tools
+
+What automation tools do we know about?
+--Selenium, Cucumber, TestNG, JUnit, Katalon Studio(Hard), UFT/QTP
+
+Level of testing
+--Unit testing
+--integration testing--testers
+--acceptance testing--clients
+--system testing--Mostly DevOps
+
+Types of testing?
+--Functional testing
+--Non-Functional testing--
+Performance testing--load, stress, performance of the application in a severe load
+Security testing--How easy is your application to hack
+
+What is Selenium?
+--is a set of tools which helps us to automate web applications. It is mainly used to perform
+functional testing
+
+Selenium Components:
+Selenium IDE--integrated development environment
+Selenium Grid--Firefox plugin
+Selenium WebDriver
+Selenium RC -Remote control
+
+What is Selenium WebDriver?
+Open Source automation tool which allows us to perform actions on a web applications
+WebDriver is an interface.
+
+Advantages of Selenium driver:
+--Open source
+--Works with different browsers and supports cross browsing testing
+--OS independent --IOS, Windows, Linus
+--Works with different programming languages --java,javascript, python,ruby
+
+Disadvantages of Selenium WebDriver
+--Cannot test desktop applications
+--No technical support
+--no built in reports
+--cannot test images, videos, and captchas
+
+get() vs Navigate()
+--Navigate can go back, forward, and refresh
+--get() will wait for the page to fully load whereas navigate() will not
+--get will not keep the history of the browser whereas navigate() will
+
+Close() vs Quit()
+--close() close the current tab
+--quit() close the whole browser
+
+fullscreen() vs maximize()
+--maximize() will maximize the browser and you will stll be able to see the control panel
